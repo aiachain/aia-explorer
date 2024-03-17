@@ -1,0 +1,19 @@
+<!-- Coinzilla Banner 728x90 -->
+<script src="<%= static_path(@conn, "/js/swiper-bundle.min.js") %>"></script>
+<div class="ad-container-box mb-2">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="http://yoho.yisahqubikai.com" target="_blank">
+            <img src="<%= static_path(@conn, "/images/banner-2.jpg") %>" width="720" height="90" />
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+<script>
+var swiper = new Swiper(".mySwiper", {
+    speed:2000,
+    autoplay: true
+    });
+</script>

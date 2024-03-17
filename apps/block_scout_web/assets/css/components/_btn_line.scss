@@ -1,0 +1,12 @@
+$btn-line-bg: #fff !default;
+$btn-line-color: $secondary !default;
+$btn-primary: #007bff;
+
+.btn-line {
+  @include btn-line($btn-line-bg, $btn-primary);
+}
+.card-chain-blocks{
+  .btn-line {
+    @include btn-line($btn-line-bg, $btn-line-color);
+  }
+}

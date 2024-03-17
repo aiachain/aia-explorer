@@ -1,0 +1,6 @@
+<title>
+  <%= gettext("%{subnetwork} %{network} Explorer", subnetwork: LayoutView.subnetwork_title(), network: LayoutView.network_title()) %>
+</title>
+<meta name="description" content="<%= gettext "BlockScout provides analytics data, API, and Smart Contract tools for the %{subnetwork}", subnetwork: LayoutView.subnetwork_title() %>">
+<meta name="keywords" content="BlockScout, blockchain, api, analytics, address, smart contract">
+<%# <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://*  ws://* 'unsafe-inline' 'unsafe-eval'; media-src * ;img-src 'self' * data:;" /> %>
